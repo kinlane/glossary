@@ -1,0 +1,3 @@
+---
+---
+{"glossary": [{% for post in terms.posts %}{{ {{ "term": post.term, "description": post.description }} }},{% endfor %}false]}
